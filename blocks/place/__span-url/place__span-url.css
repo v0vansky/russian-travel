@@ -1,0 +1,9 @@
+.place__span-url {
+  margin: 0;
+  margin-bottom: 12px;
+  font-size: 12px;
+  line-height: 12px;
+  font-weight: 400;
+  color: #aaaaaa;
+  letter-spacing: .2em;
+}

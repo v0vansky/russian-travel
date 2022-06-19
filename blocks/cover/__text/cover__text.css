@@ -1,0 +1,17 @@
+.cover__text {
+  margin: 0 auto;
+  max-width: 560px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+  z-index: 2;
+}
+@media screen and (max-width: 425px) {
+  .cover__text {
+    margin: 0 auto;
+    width: 288px;
+  }
+}
