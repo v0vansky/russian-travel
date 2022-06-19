@@ -8,6 +8,7 @@
 @media screen and (max-width: 1024px) {
   .place {
     grid-template-columns: 1fr 1fr;
+    margin-bottom: 80px;
   }
 }
 
@@ -15,10 +16,12 @@
   .place {
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     grid-gap: 48px 28px;
+    margin-bottom: 72px;
   }
 }
 @media screen and (max-width: 425px) {
   .place {
     grid-gap: 32px 0;
+    margin-bottom: 50px;
   }
 }
