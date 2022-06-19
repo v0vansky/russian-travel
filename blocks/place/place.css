@@ -10,6 +10,7 @@
     grid-template-columns: 1fr 1fr;
   }
 }
+
 @media screen and (max-width: 768px) {
   .place {
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -18,7 +19,6 @@
 }
 @media screen and (max-width: 425px) {
   .place {
-    grid-template-columns: 1fr;
     grid-gap: 32px 0;
   }
 }
