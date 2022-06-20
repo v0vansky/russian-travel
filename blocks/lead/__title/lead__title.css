@@ -8,13 +8,7 @@
   font-weight: 900;
 }
 
-@media screen and (max-width: 768px) {
-  .lead__title {
-
-  }
-}
-
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 700px) {
   .lead__title {
     max-width: 288px;
     font-size: 40px;
